@@ -1,0 +1,27 @@
+{
+  "name": "newsscrape",
+  "version": "1.0.0",
+  "description": "App that displays news and allows users to comment on articles",
+  "main": "index.js",
+  "scripts": {
+    "test": "node server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheKingdomDev/NewsScrape.git"
+  },
+  "author": "Eric King",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheKingdomDev/NewsScrape/issues"
+  },
+  "homepage": "https://github.com/TheKingdomDev/NewsScrape#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cheerio": "^1.0.0-rc.1",
+    "express": "^4.15.3",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^4.10.8",
+    "request": "^2.81.0"
+  }
+}
